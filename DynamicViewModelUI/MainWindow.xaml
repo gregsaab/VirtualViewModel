@@ -5,7 +5,7 @@
     
     
     <StackPanel>
-        <TextBlock Text="{Binding Name,Mode=TwoWay}"/>
+        <TextBlock Text="{Binding Name,Mode=TwoWay,NotifyOnTargetUpdated=True}"/>
         <TextBlock Text="{Binding Age}"/>
         <Grid>
             <Grid.ColumnDefinitions>

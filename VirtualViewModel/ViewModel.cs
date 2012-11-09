@@ -13,6 +13,10 @@ namespace VirtualViewModel
     {
         private readonly Dictionary<string, object> _properties;
         private readonly Dictionary<string, List<object>> _propertyUpdateBindings;
+        public override bool TrySetIndex(SetIndexBinder binder, object[] indexes, object value)
+        {
+            return base.TrySetIndex(binder, indexes, value);
+        }
         public override bool TrySetMember(SetMemberBinder binder, object value)
         {
             var name = binder.Name;
