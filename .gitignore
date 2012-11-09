@@ -1,0 +1,9 @@
+
+/_ReSharper.VirtualViewModel
+/_ReSharper.DynamiclViewModel
+/DynamicViewModelUI/bin
+/DynamicViewModelUI/obj
+/VirtualViewModel/obj
+/VirtualViewModel/bin
+/DynamicViewModelTests/obj
+/DynamicViewModelTests/bin
